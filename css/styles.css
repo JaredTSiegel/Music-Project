@@ -1,0 +1,8 @@
+nav {
+    background: black;
+}
+
+.jumbotron{
+    background: url('../img/TruMusic\ background.png') no-repeat center center;
+    height: 500px;
+}
