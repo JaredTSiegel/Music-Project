@@ -1,8 +1,61 @@
 nav {
     background: black;
+
 }
 
-.jumbotron{
-    background: url('../img/TruMusic\ background.png') no-repeat center center;
-    height: 500px;
+#collapsibleNavbar {
+    justify-content: end;
+}
+
+body {
+    background: url('../img/TruMusic\ background.png');
+    background-repeat: repeat;
+}
+
+
+
+.footer {
+    background: #152F4F;
+    color: white;
+
+    .links {
+        ul {
+            list-style-type: none;
+        }
+
+        li a {
+            color: white;
+            transition: color .2s;
+
+            &:hover {
+                text-decoration: none;
+                color: #4180CB;
+            }
+        }
+    }
+
+    .about-company {
+        i {
+            font-size: 25px;
+        }
+
+        a {
+            color: white;
+            transition: color .2s;
+
+            &:hover {
+                color: #4180CB
+            }
+        }
+    }
+
+    .location {
+        i {
+            font-size: 18px;
+        }
+    }
+
+    .copyright p {
+        border-top: 1px solid rgba(255, 255, 255, .1);
+    }
 }
