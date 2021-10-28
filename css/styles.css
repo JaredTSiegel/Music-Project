@@ -16,7 +16,7 @@ nav {
 }
 
 #aboutpage1 {
-    background: blueviolet;
+    background: rgb(191, 143, 236);
 }
 
 .footer {
@@ -25,5 +25,11 @@ nav {
 }
 
 #pricingpage {
-    background: green;
+    background: rgb(233, 232, 232);
 }
+
+.mysection {
+    background-color: green;
+    height: 250px;
+}
+
