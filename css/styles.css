@@ -1,7 +1,14 @@
-nav {
-    background: black;
-
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+
+nav {
+    background-color: black;
+    font-family: 'Patua One', cursive;
+}
+
+
 
 #collapsibleNavbar {
     justify-content: end;
@@ -16,20 +23,33 @@ nav {
 }
 
 #aboutpage1 {
-    background: rgb(191, 143, 236);
+    background-color: rgb(191, 143, 236);
 }
 
 .footer {
-    background: #152F4F;
+    background-color: #152F4F;
     color: white;
+    font-family: 'Patua One', cursive;
 }
 
 #pricingpage {
-    background: rgb(233, 232, 232);
+    background-color: rgb(233, 232, 232);
 }
 
 .mysection {
     background-color: green;
     height: 250px;
 }
+
+#contactpage1 {
+    background-color: rgb(175, 210, 219);
+}
+
+h4 {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+
 
