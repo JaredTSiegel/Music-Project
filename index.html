@@ -15,25 +15,9 @@
   <!-- endbuild -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" />
-  
+
 
   <title>TruMusic</title>
-  <style>
-    .modal-header, h4, .close {
-      background-color: #5cb85c;
-      color:white !important;
-      text-align: center;
-      font-size: 30px;
-    }
-    .modal-footer {
-      background-color: #f9f9f9;
-    }
-
-    .modal-open{
-      padding:0 !important;
-      overflow-y: auto;
-    }    
-  </style>
 </head>
 
 <body id="indexpage">
@@ -52,7 +36,8 @@
             <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">The Developer</a></li>
             <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.spotify.com" target="_blank">The Mock Site</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.spotify.com" target="_blank">The Mock Site</a>
+            </li>
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
         </nav>
@@ -60,26 +45,19 @@
     </nav>
   </header>
 
+  <section>
+    <div class="container mb-5 mt-5 ">
+      <br><br><br>
+      <h1>TruMusic</h1>
+      <h2>Stay true to your music</h2>
+      <p>Login or Sign Up to try our free music version</p>
+      <button type="button" class="btn default btn btn-dark" id="myBtn">Free Version</button>
+      <br><br><br><br><br><br>
+    </div>
+  </section>
 
-  <div class="container mb-5 mt-5">
-    <br>
-    <br>
-    <br>
-    <h1>TruMusic</h1>
-    <h2>Stay true to your music</h2>
-    <p>Login or Sign Up to try our free music version</p>
-    <button type="button" class="btn default btn btn-dark" id="myBtn">Free Version</button>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-  </div>
-
-  <!-- Modal -->
   <div class=" modal fade ml-2" id="myModal" role="dialog">
     <div class="modal-dialog">
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <h4>Login / Sign Up</h4>
@@ -101,14 +79,17 @@
             <button type="submit" class="btn btn-success btn-block"> Login</button>
           </form>
         </div>
-        <div class="modal-footer">
-          <p>Not a member? <a href="#">Sign Up</a></p>
-          <p>Forgot <a href="#">Password?</a></p>
+        <div class="text-center mb-3">
+            <p>Not a user?</p>
+            <p>Sign up with:</p>
+              <a class="btn btn-social-icon btn-github" href="http://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+              <a class="btn btn-social-icon btn-google" href="http://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+              <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
         </div>
       </div>
     </div>
   </div>
-
 
 
 
@@ -146,19 +127,20 @@
       </div>
       <div class="row mt-5">
         <div class="col copyright">
-          <p class=""><small class="text-white-50">Made 2021. Mock Website Practice.</small></p>
+          <p class=""><small class="text-white-50">Made 2021. Free Practice.</small></p>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <!-- endbuild -->
-    
+  <!-- build:js js/main.js -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- endbuild -->
+
 </body>
 
 </html>

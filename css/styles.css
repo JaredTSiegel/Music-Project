@@ -1,40 +1,70 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 nav {
   background-color: black;
-  font-family: 'Patua One', cursive; }
+  font-family: 'Patua One', cursive;
+}
 
 #collapsibleNavbar {
-  justify-content: end; }
+  justify-content: end;
+}
 
 #indexpage {
   background: url("../img/TruMusic background.png");
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-  background-size: cover; }
+}
 
 #aboutpage1 {
-  background-color: #bf8fec; }
+  background-color: #bf8fec;
+}
 
 .footer {
   background-color: #152F4F;
   color: white;
-  font-family: 'Patua One', cursive; }
+  font-family: 'Patua One', cursive;
+
+
+}
 
 #pricingpage {
-  background-color: #e9e8e8; }
+  background-color: #e9e8e8;
+}
 
 .mysection {
   background-color: green;
-  height: 250px; }
+  height: 250px;
+}
 
 #contactpage1 {
-  background-color: #afd2db; }
+  background-color: #afd2db;
+}
 
 h4 {
   background-color: #5cb85c;
   color: white !important;
   text-align: center;
-  font-size: 30px; }
+  font-size: 30px;
+}
+
+.modal-header,
+h4,
+.close {
+  background-color: #5cb85c;
+  color: white !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modal-footer {
+  background-color: #f9f9f9;
+}
+
+.modal-open {
+  padding: 0 !important;
+  overflow-y: auto;
+}
